@@ -1,0 +1,194 @@
+body{background-color:white ;}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;}
+
+nav ul li{
+    width: 16.6%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.20em;}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-family: NotoSerif-Bold;
+    font-size: 21px;}
+
+li a:hover{color: #000000;}
+
+/* Letras */
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    font-family: NotoSerif-Bold;
+    text-decoration: underline;}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: NotoSerif-Bold;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+    
+h3{
+    font-size: 25px;
+    text-align: center;
+    font-family: NotoSerif-Bold;
+    font-weight: bold;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: NotoSerif-Bold;
+}
+h5{
+    font-size: 15px;
+    text-align: center;
+    font-family: NotoSerif-Bold;
+}
+h6{
+    font-size: 22px;
+    text-align: left;
+    padding-left: 6%;
+    font-family: NotoSerif;
+}
+
+
+p{
+    font-size: 19px;
+    font-family: NotoSerif-Bold;
+    text-align: center;
+    color: #000000;
+}
+
+a{
+    font-family: NotoSerif-Bold;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-align: left;}
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;}
+
+/* Imagener de la pagina 1: Menu*/
+.logo{text-align: center;}
+img{width: auto; height: 220px;}
+
+/* Imagenes de la pagina 2: Prensa*/
+.img2 {width: auto; height: 330px;}
+.img2-center{text-align: center;}
+
+/* Imagenes de la pagina 2-1: Prensa*/
+.img2-1 {width: auto; height: 240px; padding: 2%;}
+.img2-1-center{text-align: center;
+}
+/* Imagenes de la pagina 2-2: Prensa*/
+.img2-2 {width: auto; height: 250px; padding: 8%;}
+.img2-2-center{text-align: center;
+}
+
+/* Imagenes de la pagina 5: Historia*/
+.img5 {width: auto; height: 600px;}
+.img5-center{text-align: center;}
+
+.img11 {width: auto; height:350px; padding: 8%;}
+.img11-center{text-align: center;
+}
+
+.img12 {width: auto; height:100px; padding: 8%;}
+.img12-center{text-align: center;
+}
+
+/* Cajas basicas*/
+.caja1{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    width: 900px;
+    height: 340px;
+    /*background-color:#FFCDD2;*/
+    background: radial-gradient(#cea16e, #fad0a1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.caja2{
+    margin:auto;
+    width: 900px;
+    height: 40px;
+    background-color:#e78905;
+    /*background: linear-gradient(to right, #ff84b3, #df6e9a, #97c3f4);*/
+    float: left;
+}
+
+.caja3{
+    margin:auto;
+    width: 600px;
+    height: 850px;
+    background: linear-gradient(135deg,#fec078 60%, #d37522  );
+   float: left;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-bottom-left-radius: 20px;
+}   
+
+.caja4{
+    margin: auto;
+    width: 284px;
+    height: 850px;
+    /*background-color: rgb(165, 46, 125);*/
+    float: left;
+    background: linear-gradient(to right, #FE6646, #F2B240 );
+    border-bottom-right-radius: 20px;
+}
+/* #F2B240, #FE6646 */
+
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+   
+}
+
+.columnasx3{
+    width: 33%; 
+    float: left;
+   
+}
+
+iframe{
+    margin: auto;
+    width: 550px;
+    height: 500px;
+    padding-top: 5%;
+    padding-left: 4.5%;
+    
+}
+
+.redes{
+    margin: auto; text-align: left;
+   
+}
+
+.img4{
+    width: auto; height: 50px; 
+}
